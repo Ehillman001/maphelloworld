@@ -6,7 +6,7 @@ function initMap() {
     zoom: 8,
   });
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: Carleton University,
     map: map,
   });
 }
