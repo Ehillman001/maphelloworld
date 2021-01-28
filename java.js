@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
-  const ottawa = { lat: 45.38771680786572, lng: -75.69605238832233 };
+  const ottawa = { lat: 45.387, lng: -75.696 };
   // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
