@@ -26,6 +26,7 @@ function eqfeed_callback(results) {
   const heatmap = new google.maps.visualization.HeatmapLayer({
     data: heatmapData,
     dissipating: false,
+    gradient: red,
     map: map,
   });
 }
